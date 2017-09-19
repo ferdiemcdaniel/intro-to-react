@@ -1,8 +1,5 @@
 {
   "scripts": {
-<<<<<<< HEAD
-    "api": "node ratingsAPI.js"
-=======
     "api": "node ratingsAPI.js",
     "format": "prettier --list-different --single-quote --print-width=120 webpack.config.js \"js/**/*.{js,jsx}\"",
     "lint": "eslint **/*.{js,jsx} --quiet",
@@ -18,7 +15,6 @@
     "snapshotSerializers": [
       "jest-serializer-enzyme"
     ]
->>>>>>> 03296d511993ad5399c09b032d2088583ab13102
   },
   "dependencies": {
     "axios": "0.16.1",
